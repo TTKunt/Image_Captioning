@@ -16,16 +16,13 @@ We use 3 different architectures for the CNN.
 
 Generated Captions:
 
-Using Inception Net V3: 
-
+1. Using Inception Net V3: 
 A dog shakes its head while standing in a field.
 
-Using VGG16:
-
+2. Using VGG16:
 A dog with a red collar is walked.
 
-Using VGG19:
-
+3. Using VGG19:
 A brown dog is running on the grass.
 
 
@@ -34,8 +31,6 @@ In this model, an attention layer is added to the network. At each step, the sal
 
 ### Results
 ![image](https://user-images.githubusercontent.com/26028320/69885444-ffd61700-1291-11ea-91b3-d945407eb6f5.png)
-
-Generated Caption:
 
 Real Caption: two pizzas on two pans on a table 
 
