@@ -13,8 +13,30 @@ We use 3 different architectures for the CNN.
 
 ### Results
 ![image](https://user-images.githubusercontent.com/26028320/69885314-627ae300-1291-11ea-97da-5efe72db11f5.png)
+Generated Captions:
+Using Inception Net V3: 
+A dog shakes its head while standing in a field.
+
+Using VGG16:
+A dog with a red collar is walked.
+
+Using VGG19:
+A brown dog is running on the grass.
+
 
 ## Show, attend and tell
+In this model, an attention layer is added to the network. At each step, the salient region of the image is determined and is fed into the RNN instead of using features from the whole image. The system gets a focused view from the image and predicts the word relevant to that region. The region where attention is focused needs to be determined on the basis of previously generated words.
+
+### Results
+![image](https://user-images.githubusercontent.com/26028320/69885444-ffd61700-1291-11ea-91b3-d945407eb6f5.png)
+Generated Caption:
+
+Real Caption: two pizzas on two pans on a table 
+
+Prediction Caption: two large pizza is sitting on a plate 
+
+Attention Map:
+![image](https://user-images.githubusercontent.com/26028320/69885463-24ca8a00-1292-11ea-9a97-4701d00e39e4.png)
 
 
 ## References
