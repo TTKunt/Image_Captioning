@@ -12,7 +12,7 @@ We use 3 different architectures for the CNN.
 3. VGG 19
 
 ### Results
-
+![image](https://user-images.githubusercontent.com/26028320/69885314-627ae300-1291-11ea-97da-5efe72db11f5.png)
 
 ## Show, attend and tell
 
