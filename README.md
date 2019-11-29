@@ -1,10 +1,17 @@
 # Image Captioning
 
 ## Dataset
-We use the Flickr8k dataset. Flickr8K contains 8,000 images that are each paired with five different captions which provide clear descriptions of the salient entities and events. The dataset can be downloaded from here
+We use the Flickr8k dataset. Flickr8K contains 8,000 images that are each paired with five different captions which provide clear descriptions of the salient entities and events. The dataset can be downloaded by requesting using this form https://forms.illinois.edu/sec/1713398.
 
 
 ## Show and tell
+Show and tell is a simple neural image caption generator. It comprises of a CNN and an RNN to generate captions for images.
+We use 3 different architectures for the CNN.
+1. Inception Net V3
+2. VGG 16
+3. VGG 19
+
+### Results
 
 
 ## Show, attend and tell
