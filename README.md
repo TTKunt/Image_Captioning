@@ -29,6 +29,9 @@ A brown dog is running on the grass.
 ## Show, attend and tell
 In this model, an attention layer is added to the network. At each step, the salient region of the image is determined and is fed into the RNN instead of using features from the whole image. The system gets a focused view from the image and predicts the word relevant to that region. The region where attention is focused needs to be determined on the basis of previously generated words.
 
+## Attention Mechanism
+At each step, the salient region of the image is determined and is fed into the RNN instead of using features from the whole image. The system gets a focused view from the image and predicts the word relevant to that region. The region where attention is focused needs to be determined on the basis of previously generated words.
+
 ### Results
 ![image](https://user-images.githubusercontent.com/26028320/69885444-ffd61700-1291-11ea-91b3-d945407eb6f5.png)
 
