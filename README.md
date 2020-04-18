@@ -1,4 +1,4 @@
-# Image Captioning
+# Image Captioning OK
 
 ## Dataset
 We use the Flickr8k dataset. Flickr8K contains 8,000 images that are each paired with five different captions which provide clear descriptions of the salient entities and events. The dataset can be downloaded by requesting using this form https://forms.illinois.edu/sec/1713398.
